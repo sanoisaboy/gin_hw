@@ -5,15 +5,22 @@ It provides five kind of method to controll the student grades with postman,resp
 
 
 ## Schema design 
-This system only contain one table, three field, respectively are student_name, id, point,and student_name is string, id is primary key,point is int.
+This system only contain one table, three field, respectively are student_name, id, point, and student_name is string and unquie, id is int and primary key, point is int.
 
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/student_grade_schema.PNG)
+
+## API use
 
 
 ## Quick start
 
     $go run cmd/gin_hw/main.go --connect_string "<databaes_connect_string>"
 and use browser to connect to localhost:8002.
+
+
+
+
+
 
 ## Pre-require
 * Go
