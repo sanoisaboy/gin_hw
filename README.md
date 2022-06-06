@@ -1,4 +1,7 @@
-# Grades Inquiries System for student 
+# Grades Inquiries System for teacher 
+Grades Inquiries System for teacher is a backend system for teacher to register students grades
+
+
 
 ## Quick start
 
