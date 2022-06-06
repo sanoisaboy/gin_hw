@@ -1,7 +1,7 @@
 # Grades Inquiries System for teacher 
-Grades Inquiries System for teacher is a backend system for teacher base on Gin to register students grades.
+Grades Inquiries System for a teacher is a backend system for teacheres based on Gin to register students' grades.
 
-It provides five kind of method to controll the student grades with postman,respectively are ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent,and I choose CockroachDB to be the database in this module,and it also five kind of method to controll the database, respectively are ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent in crdb_repository.go file
+It provides five kinds of methods to control the student grades with postman,respectively are ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent, and I choose CockroachDB to be the database in this module, and it also has five kinds of methods to control the database, respectively are ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent in crdb_repository.go file
 
 
 ## Schema design 
