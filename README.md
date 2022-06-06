@@ -1,6 +1,8 @@
 # Grades Inquiries System for student 
 
-##Quick start
+## Quick start
+
+    $go run cmd/gin_hw/main.go --connect_string "<databaes_connect_string>"
 
 ## Pre-require
 * Go
