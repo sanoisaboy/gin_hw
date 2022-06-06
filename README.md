@@ -15,8 +15,12 @@ use postman to GET localhost:8002/v1/users and you will get all the students gra
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/555319.png)
 
 ### GetStudent
-use postman to GET localhost:8002/v1/users/id?id=<student_id> and you will get the designated student name, id ,point
+use postman to GET localhost:8002/v1/users/id?id=<student_id> and you will get the designated student name, id , point
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216348053558.png)
+
+### CreateStudent
+use postman to POST localhost:8002/v1/users?studnet_name=<student_name>&id=<student_id>&point=<student_point> and will create a new student grades in the database
+![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216352730447.png)
 
 ## Quick start
 
