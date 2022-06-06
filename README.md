@@ -10,6 +10,7 @@ This system only contain one table, three field, respectively are student_name, 
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/student_grade_schema.PNG)
 
 ## API use
+### ListStudent
 
 
 ## Quick start
