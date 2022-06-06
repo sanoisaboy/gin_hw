@@ -27,4 +27,4 @@ first run the code.
 
     $go run cmd/gin_hw/main.go -connect_string "<database_connect_string>"
 
-and connect to localhost:3001.
+and use browser to connect to localhost:8002.
