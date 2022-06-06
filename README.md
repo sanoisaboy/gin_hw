@@ -14,6 +14,9 @@ This system only contain one table, three field, respectively are student_name, 
 use postman to GET localhost:8002/v1/users and you will get all the students grades
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/555319.png)
 
+### GetStudent
+use postman to GET localhost:8002/v1/users/id?id=<student_id> and you will get the designated student name, id ,point
+![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216348053558.png)
 
 ## Quick start
 
