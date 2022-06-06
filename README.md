@@ -1,6 +1,7 @@
 # Grades Inquiries System for teacher 
-Grades Inquiries System for teacher is a backend system for teacher to register students grades
+Grades Inquiries System for teacher is a backend system for teacher base on Gin to register students grades.
 
+It provides five kind of method to controll the student grades,respectivelyare ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent.
 
 
 ## Quick start
