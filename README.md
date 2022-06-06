@@ -15,12 +15,20 @@ use postman to GET localhost:8002/v1/users and you will get all the students gra
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/555319.png)
 
 ### GetStudent
-use postman to GET localhost:8002/v1/users/id?id=<student_id> and you will get the designated student name, id , point
+use postman to GET localhost:8002/v1/users/id?id=<student_id> and you will get the designated student name, id , point.
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216348053558.png)
 
 ### CreateStudent
-use postman to POST localhost:8002/v1/users?studnet_name=<student_name>&id=<student_id>&point=<student_point> and will create a new student grades in the database
+use postman to POST localhost:8002/v1/users?studnet_name=<student_name>&id=<student_id>&point=<student_point> and will create a new student grades in the database.
 ![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216352730447.png)
+
+### UpdateStudent
+use postman to PATCH localhost:8002/v1/users?id=<student_id>&point=<student_update_point> and will update the designated student point.
+![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216355519108.png)
+
+### DeleteStudent
+use postman to DELETE localhost:8002/v1/users?id=<student_id> and will delete the designated student in the database.
+![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/16216357563794.png)
 
 ## Quick start
 
@@ -28,35 +36,3 @@ use postman to POST localhost:8002/v1/users?studnet_name=<student_name>&id=<stud
 and use browser to connect to localhost:8002.
 
 
-
-
-
-
-## Pre-require
-* Go
-* CockroachDB
-
-## Module 1: Distributed SQL
-In this module, we need to familiar with Distributed SQL (a kind of SQL database that design for scale, maybe base on Google Spanner or Calvin/SLOG papers). I choose CockroachDB to practice with this module.
-
-### Objectives
-* Admin CockroachDB (eg: setup database and user-schema...)
-* Design application schema (eg: tables, indexes...)
-
-## Module 2: Repository & Entity & Interactor
-In this module, we need to use Go to transfer SQL command into Go code. You may use some database driver or ORM libraries like GORM or pgxpool.
-
-### Objectives
-* Implement ```crdbRepository struct``` and ```Repository interface``` 
-
-## Module 3: Protobuf & gRPC & HTTP
-In this module, we need to build a client interface, in other words, we need to provide HTTP endpoints . We can use GIN.
-* Implement GIN
-* Implemment HTTP endpoint
-
-## How to use
-first run the code.
-
-    $go run cmd/gin_hw/main.go -connect_string "<database_connect_string>"
-
-and use browser to connect to localhost:8002.
