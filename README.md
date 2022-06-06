@@ -1,4 +1,6 @@
-# gin_hw
+# Grades Inquiries System for student 
+
+##Quick start
 
 ## Pre-require
 * Go
