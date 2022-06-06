@@ -11,6 +11,8 @@ This system only contain one table, three field, respectively are student_name, 
 
 ## API use
 ### ListStudent
+use postman to GET localhost:8002/v1/users and you will get all the students grades
+
 
 
 ## Quick start
