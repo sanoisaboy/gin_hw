@@ -3,6 +3,8 @@ Grades Inquiries System for a teacher is a backend system for teacheres based on
 
 It provides five kinds of methods to control the student grades with postman,respectively are ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent, and I choose CockroachDB to be the database in this module, and it also has five kinds of methods to control the database, respectively are ListStudent, GetStudent, CreateStudent, UpdateStudent, DeleteStudent in crdb_repository.go file
 
+## System Architecture desgin
+![alt text](https://github.com/sanoisaboy/gin_hw/blob/main/system.drawio.png)
 
 ## Schema design 
 This system only contain one table, three field, respectively are student_name, id, point, and student_name is string and unquie, id is int and primary key, point is int.
